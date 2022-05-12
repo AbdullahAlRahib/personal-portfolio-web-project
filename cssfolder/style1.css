@@ -1,0 +1,258 @@
+body{
+    background-color: cornflowerblue;
+    
+}
+#navigationbar{
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.navigationbar-left{
+    width: 50%;
+    height: 50px;
+    float: left;
+    background-color: cornflowerblue;
+}
+
+.navigationbar-left h1{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+.navigationbar-right{
+    width: 50%;
+    height: 50px;
+    float: right;
+    background-color: cornflowerblue;
+}
+
+
+.menu{
+    margin-top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: cornflowerblue;
+}
+.menu ul{
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+.menu ul li{
+    float: right;
+    width: 20%;
+    color: white;
+
+}
+.menu ul li a{
+    background-color: cornflowerblue;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.menu ul li a:hover{
+    background-color: darkgray;
+    text-decoration: none;
+}
+#cover{
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cover-left{
+    width: 50%;
+    height: 50px;
+    float: left;
+    
+}
+
+.cover-left h2{
+    margin-top: 275px;
+    margin-left: 150px;
+    text-align: center;
+    color: white;
+    font-style: bold;
+}
+.cover-left p{
+    margin-left: 150px;
+    text-align: center;
+    color: white;
+    font-style: bold;
+    font-size: large;
+}
+
+
+.cover-right{
+    width: 50%;
+    height: 600px;
+    position: relative;
+    float: right;
+}
+.img1{
+    margin-left: 100px;
+    margin-top: 150px;
+    width: 300px;
+    height: 300px;
+    clip-path: circle();
+}
+#about{ 
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 200px;
+    background-color: white;
+    opacity: .8;
+    border-radius: 50px;
+}
+#about h1{
+    margin: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-style: Bold;
+}
+#about p{
+    margin: 30px;
+    text-align: center;
+    font-size: medium;
+    font-style: Bold;
+}
+
+#skill{ 
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 500px;
+
+}
+#skill h1{
+    margin: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-style: Bold;
+    color: white;
+}
+.skill-left{
+    width: 50%;
+    height: 350px;
+    float: left;
+}
+.skill-left h2{
+    margin-left: 350px;
+    font-style: Bold;
+    color: white;
+}
+.skill-left ul{
+    margin-left: 350px;
+    font-style: Bold;
+    font-size: Large;
+    color: white;
+}
+
+.skill-right{
+    width: 50%;
+    height: 350px;
+    float: left;
+}
+
+.skill-right h2{
+    margin-left: 35px;
+    font-style: Bold;
+    color: white;
+}
+.skill-right ul{
+    margin-left: 35px;
+    font-style: Bold;
+    font-size: Large;
+    color: white;
+}
+
+#project{ 
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 400px;
+    background-color: white;
+    border-radius: 50px;
+    opacity: .8;
+}
+#project h1{
+    margin: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-style: Bold;
+}
+#projects ul{
+    margin-left: 250px;
+    font-size: large;
+    font-style: Bold;
+}
+
+
+#con{ 
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 550px;
+}
+#con h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-style: Bold;
+    color: white;
+}
+#con p{
+    margin: 30px;
+    text-align: center;
+    font-size: large;
+    font-style: Bold;
+    color: white;
+}
+#cf{
+    text-align: center;
+    color: white;
+}
+#un,#email{
+    height: 30px;
+    width: 350px;
+    text-align: center;
+    border-radius: 0px 10px 10px 10px;
+    border-color: white;
+}
+#messa{
+    text-align: cemter;   
+    border-radius: 0px 10px 10px 10px;
+    border-color: white;
+    text-align: center;
+}
+.form-left{
+    width: 37%;
+    height: 50px;
+    float: left;   
+}
+
+.form-right{
+    width: 63%;
+    height: 50px;
+    float: left;   
+}
+#sd{
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+    font-style: Bold;
+    border-radius: 5px 5px 5px 5px;
+    border-color: white;
+    background-color: slategrey;
+}
+#sd:hover{
+    background-color: rgb(157, 188, 247);
+}
